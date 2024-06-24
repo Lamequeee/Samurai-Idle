@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,20 +14,20 @@
     <main>
         <div class="wrapper">
             
-        <div class="arvore1">
-            <p>Arvore 1</p>
+        <div class="arvore">
+            Arvore 1
         </div>
 
-        <div class="arvore2">
-        <p>Arvore 2</p>
+        <div class="arvore">
+        Arvore 2
         </div>
 
-        <div class="arvore3">
-        <p>Arvore 3</p>
+        <div class="arvore">
+        Arvore 3
         </div>
 
-        <div class="arvore4">
-        <p>Arvore 4</p>
+        <div class="arvore">
+        Arvore 4
         </div>
 
         </div>
