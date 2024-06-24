@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Corte de arvore</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/stylearvore.css">
+        <!--POR ALGUM MOTIVO QUE EU NÃO SEI, NÃO PODE SER UTILIZADO O NOME: STYLE.CSS... FAZER NOMES PERSONALIZADOS!!!!! -->
 </head>
 <body>
     <header>
