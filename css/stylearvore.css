@@ -1,36 +1,79 @@
 *{
     padding: 0;
     margin: 0;
+    
+}
+
+.container {
+    display: flex;
+}
+
+body{
     background-color: gray;
 }
 
 header{
-    display: block;
+    
     background-color: green;
-    width: 80%;
     height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    margin-left: 241px; /* Espaço para a sidebar */
+    width: calc(100% - 220px); /* Ajusta a largura do cabeçalho */
+    position: fixed; /* Fixa o cabeçalho no topo */
+    top: 0;
+    z-index: 1; /* Garante que o cabeçalho fique acima do conteúdo */
 }
 
+
 header > h1{
-    position: absolute;
-    background-color: green;
-    left: 300px;
+    color: white;
 }
 
 main{
-    padding: 50px 50px 0 50px;
+    margin-left: 220px; /* Espaço para a sidebar */
+    padding: 20px;
+    width: calc(100% - 220px); /* Ajusta a largura do conteúdo principal */
+    box-sizing: border-box;
+}
+
+main {
+    padding: 100px 50px 0 50px; /* Adiciona espaço suficiente para o cabeçalho fixo */
 }
 
 .wrapper {
     display: grid;
     grid-template-columns: 200px 200px 200px;
     grid-template-rows: 200px 200px 200px ;
+    
   }
 
   .arvore {
     border: 1px solid black;
-  text-align: center;
-  font-size: 1.25em;
-  font-weight: normal;
+    text-align: center;
+    font-size: 1.25em;
+    font-weight: normal;
+    margin: 10px;
   }
     
+.arvore > img {
+    width: 100px;
+    height: 100px;
+}
+
+.arvore:hover{
+    background-color: green;
+}
+
+.arvore > span{
+    position: absolute;
+    font-size: 50px;
+    margin-top: 100px;
+    margin-left: -80px;
+}
+
+button{
+    cursor: pointer;
+}
