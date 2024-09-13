@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+.container {
+    display: flex;
+}
+
+body{
+    background-color: gray;
+}
+
+header{
+    
+    background-color: rgb(26, 27, 26);
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    margin-left: 241px; /* Espaço para a sidebar */
+    width: calc(100% - 220px); /* Ajusta a largura do cabeçalho */
+    position: fixed; /* Fixa o cabeçalho no topo */
+    top: 0;
+    z-index: 1; /* Garante que o cabeçalho fique acima do conteúdo */
+}
+
+
+header > h1{
+    color: white;
+}
+
+main{
+    margin-left: 220px; /* Espaço para a sidebar */
+    padding: 20px;
+    width: calc(100% - 220px); /* Ajusta a largura do conteúdo principal */
+    box-sizing: border-box;
+}
+
+main {
+    padding: 50px 50px 50px 50px; /* Adiciona espaço suficiente para o cabeçalho fixo */
+    margin-top: 120px;
+    margin-left: 40%;
+    margin-right: 50%;
+    background-color: rgba(68, 62, 62, 0.658);
+    width: 800px;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: 100px 100px 100px ;
+    
+  }
+
+  .bloco_inv {
+    border: 1px solid black;
+    text-align: center;
+    font-size: 1.25em;
+    font-weight: normal;
+    margin: 10px;
+  }
+    
